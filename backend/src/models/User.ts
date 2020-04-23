@@ -6,6 +6,8 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
+// kiss - keep It simple and Stupid - Pesquisar sobre
+
 @Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
